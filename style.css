@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(104, 104, 104, 0.527), rgba(50, 50, 50, 0.5)), url("./background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.wrapper {
+    width: 280px;
+    color: white;
+}
+
+.wrapper h1 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.wrapper h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    padding: 0px;
+}
+
+.wrapper .username_password {
+    width: 100%;
+    height: 43px;
+    margin: 10px 0;
+}
+
+.username_password input {
+    width: 100%;
+    height: 100%;
+    background: rgba(144, 179, 191, 0.144);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: smaller;
+    padding: 17px;
+}
+
+.username_password input::placeholder {
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.wrapper .sign_in {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 207, 175);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 13px;
+    padding: 13px;
+    margin-bottom: 15px;
+}
+
+.wrapper .remember_forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.remember_forgot label input {
+    accent-color: rgb(255, 207, 175);
+    margin-right: 6px;
+}
+
+.remember_forgot label {
+    color: rgb(255, 207, 175);
+}
+
+.remember_forgot a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sign_in_with {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+
+.facebook{
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    width: 125px;
+    height: 33px;
+    margin-left: 13px;
+    margin-right: 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.twitter {
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    width: 125px;
+    height: 33px;
+    margin-left: 0;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 13px;
+}
